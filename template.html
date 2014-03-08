@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="http://localhost:8080/vidBrowser.js"></script>
+		<script src="/dronestream/nodecopter-client.js"></script>
+	</head>
+	<body>
+		<style>canvas { width: 100%; height: auto; position: fixed; }</style>
+		<div id="droneStream"></div>
+		<script>
+			var el = document.getElementById("droneStream");
+			var stream = new NodecopterStream(el);
+		</script>
+	</body>
+</html>
+

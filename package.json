@@ -1,0 +1,29 @@
+{
+	"name": "demo-nodecopter-ardrone-browser-remote",
+	"version": "0.0.0",
+	"description": "2014.03.08 NodeCopter demo - remote control + video stream a Parrot AR drone via the browser",
+	"main": "vid.js",
+	"dependencies": {
+		"dronestream": "~1.1.1",
+		"beefy": "^1.1.0",
+		"ar-drone": "~0.3.1",
+		"browserify": "~3.32.0",
+		"shoe": "~0.0.15",
+		"through": "~2.3.4"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ljharb/demo-nodecopter-ardrone-browser-remote.git"
+	},
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/demo-nodecopter-ardrone-browser-remote/issues"
+	},
+	"homepage": "https://github.com/ljharb/demo-nodecopter-ardrone-browser-remote"
+}
+
