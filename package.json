@@ -5,9 +5,9 @@
 	"main": "vid.js",
 	"dependencies": {
 		"dronestream": "~1.1.1",
-		"beefy": "^1.1.0",
+		"beefy": "^2.1.8",
 		"ar-drone": "~0.3.1",
-		"browserify": "~3.32.0",
+		"browserify": "~16.5.0",
 		"shoe": "~0.0.15",
 		"through": "~2.3.4"
 	},
